@@ -1,0 +1,55 @@
+.tituliPrincipal{
+  /* color: red; */
+  font-size: 3em;
+  text-align: center;
+}
+.formulario_principal{
+  width: 60%;
+  margin: 0 auto;
+  background-color: RED;
+  padding: 2%;
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+    border-radius: 30px; 
+    box-shadow: 2px 2px 10px #1D0000;
+}
+.form-control{
+  width: 90%;
+}
+.registra{
+  background: #FBB03B;
+  width: 600px;
+  cursor: pointer;
+    font-family: 'Joan', serif;
+    box-shadow: 1px 1px 5px #1D0000;
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ .formulario_principal{
+     width: 80%; 
+     /* background: red; */
+   }
+   .registra{
+    margin: 0 auto;
+  }
+
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .formulario_principal{
+      width: 80%; 
+     /*  background: rgb(37, 10, 192); */
+    }
+    .registra{
+      margin-left:35%;
+    }
+ }
+ @media only screen and (min-width: 150px) and (max-width: 399px) {
+  .formulario_principal{
+      width: 100%; 
+      /* background: rgb(107, 192, 10); */
+      margin: 2%;
+    }
+    .registra{
+      margin-left:35%;
+    }
+ }

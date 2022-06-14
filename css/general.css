@@ -1,0 +1,23 @@
+
+ .buscar{
+     background: #FBB03B ;
+     font-size: 1em;
+ }
+ .buscar:hover{
+     background: green;
+ }
+ .box1{
+     color: rgb(27, 26, 26);
+     /* font-size: 0.5em; */
+ }
+ .box1{
+    text-align: center;
+ }
+ .principal{
+     width: 95%;
+     margin: 0 auto;
+ }
+.regresar{
+    margin-left: 3%;
+    margin-top: 10%;
+}

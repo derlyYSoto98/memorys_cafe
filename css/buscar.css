@@ -1,0 +1,11 @@
+
+ .buscar{
+     background: #FBB03B ;
+     font-size: 1em;
+ }
+ .buscar:hover{
+     background: green;
+ }
+ .box1{
+     font-weight: bold;
+ }

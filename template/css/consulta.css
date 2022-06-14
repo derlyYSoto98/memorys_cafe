@@ -1,0 +1,16 @@
+h1{
+  color:rgb(8, 8, 8);
+  margin-top: -5%;
+  margin-bottom: 2%;
+}
+.table1{
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 5%;
+    margin-right: 5%;
+   
+}
+th, td{
+  text-align: center;
+}

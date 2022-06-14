@@ -1,0 +1,1 @@
+scr<script type="text/javascript">window.alert("Comuniquese con su desarrollador por favor....");window.location="index.php"</script>

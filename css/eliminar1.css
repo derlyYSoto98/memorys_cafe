@@ -1,0 +1,35 @@
+a{
+   /*  color: red; */
+    font-size: 2em;
+}
+.titulo1{
+    color: #FBB03B ;
+    text-align: center;
+}
+.icono{
+    font-size: 2em;
+    color: #FBB03B;
+   
+}
+.icono:hover{
+    font-size: 3em;
+     color: maroon;
+}
+.simbolos{
+   /*  background-color: blue; */
+    margin: 0 auto;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+@media only screen and (min-width: 150px) and (max-width: 399px) {
+    h1{
+        font-size: 1em;
+    }
+    .hoja{
+        display: none;
+      }
+   }
