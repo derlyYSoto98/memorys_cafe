@@ -74,10 +74,10 @@ session_start();
             <div class="span6">
 
               <ul class="social-network">
-                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-circled icon-bglight icon-facebook"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-circled icon-bglight icon-twitter"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-circled icon-linkedin icon-bglight"></i></a></li>
-                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-circled icon-pinterest  icon-bglight"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100063562062983" data-placement="bottom" title="Facebook"><i class="icon-circled icon-bglight icon-facebook"></i></a></li>
+                <!-- <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-circled icon-bglight icon-twitter"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-circled icon-linkedin icon-bglight"></i></a></li> -->
+                <li><a href="#" data-placement="bottom" title="Intagram"><i class="icon-circled fa-brands fa-instagram icon-bglight"></i></a></li>
                 <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-circled icon-google-plus icon-bglight"></i></a></li>
               </ul>
 
@@ -222,9 +222,9 @@ session_start();
             <div class="widget">
               <h5 class="widgetheading">Redes sociales</h5>
               <ul class="link-list">
-                <li><a href="#">Facebook</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100063562062983">Facebook</a></li>
                 <li><a href="#">Youtube</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://instagram.com/memoryscafe?igshid=YmMyMTA2M2Y=">Instagram</a></li>
                <!--  <li><a href="#">Press release</a></li>
                 <li><a href="#">What we have done</a></li>
                 <li><a href="#">Our support forum</a></li> -->
@@ -235,7 +235,7 @@ session_start();
           <div class="span4">
             <div class="widget">
               <h5 class="widgetheading"></h5>
-              <img class="hoja" src="../images/hoja.png" width="100%" alt="">
+              <img class="footerhoja" src="../images/hoja.png" width="100%" alt="">
               <div class="flickr_badge">
                 <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
               </div>

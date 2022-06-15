@@ -146,7 +146,8 @@ header{
 header .top {
 	padding:10px 0 10px;
 	margin:0 0 30px;
-	background: url(../img/top-pattern-150.png) repeat;
+	/* background: url(../img/top-pattern-150.png) repeat; */
+	background: #1D0000;
 -webkit-box-shadow: 0 4px 4px -2px #222;
    -moz-box-shadow: 0 4px 4px -2px #222;
         box-shadow: 0 4px 4px -2px #222;
@@ -1984,7 +1985,13 @@ ul.time-post li.time{
 footer{
 	padding:50px 0 0 0;
 	color:#bbb;
-	background: url(../img/header-pattern-150.png) repeat;
+	/* background: url(../img/header-pattern-150.png) repeat; */
+	background: #1D0000;
+}
+@media (max-width: 770px) {
+.footerhoja{
+	display: none;
+}
 }
 
 footer a {

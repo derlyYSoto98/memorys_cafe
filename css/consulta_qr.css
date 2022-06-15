@@ -35,17 +35,38 @@
     text-align: center;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1081px) and (max-width: 1186px) {
+  .formulario_principal{
+      width: 30%; 
+      /* background: rgb(37, 10, 192);  */    
+    }
+    .hoja{
+     display: none;
+   }
+ }
+/*@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .formulario_principal{
+      width: 30%; 
+       background: rgb(37, 10, 192);  
+    
+     
+    }
+    .hoja{
+     display: none;
+   }
+ }*/
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
     .formulario_principal{
-        width: 80%; 
+        width: 30%; 
         /* background: red; */
-        margin: 3%;
+        margin: o auto;
       }
    }
    @media only screen and (min-width: 400px) and (max-width: 767px) {
      .formulario_principal{
-         width: 60%; 
-        /*  background: rgb(37, 10, 192); */
+         width: 50%; 
+         /* background: rgb(37, 10, 192); */
        }
        .hoja{
         display: none;
@@ -53,7 +74,7 @@
     }
     @media only screen and (min-width: 150px) and (max-width: 399px) {
      .formulario_principal{
-         width: 80%; 
+         width: 70%; 
        /*   background: rgb(107, 192, 10); */
          margin: 0 auto;
        }

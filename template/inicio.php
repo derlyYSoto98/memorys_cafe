@@ -55,7 +55,7 @@ session_start();
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="index.html"><img src="images/logo1.png" width="120" alt="#" /></a>
+                    <a href="#"><img src="images/logo1.png" width="120" alt="#" class="logo_prin"/></a>
                   </div>
                 </div>
               </div>
@@ -167,7 +167,7 @@ session_start();
                       <div class="col-lg-4 col-md-6 col-sm-6 ">
                         <div class="address">
                             
-                            <img src="images/hoja.png" width="100%" alt="#" />
+                            <img class="hoja" src="images/hoja.png" width="100%" alt="#" />
                             
                         </div>
                       </div>

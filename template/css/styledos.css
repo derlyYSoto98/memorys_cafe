@@ -108,6 +108,11 @@
      max-width: 100%;
      height: auto;
 }
+.logo_prin{
+    /* background: rgb(0, 255, 21); */
+    padding:5%;
+    padding-top:20px;
+}
  :focus {
      outline: 0;
 }
@@ -856,12 +861,12 @@
      font-size: 16px;
      display: block;
      font-weight: 500;
-     color: #1D0000;
+     color: #0a0a0a;
      /* background-color: green; */
 
 }
 
- .main-menu ul>li a:hover {    background-color: #FF931E;}
+ .main-menu ul>li a:hover {    background-color: #FBB03B; border-radius: 8px;}
  .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -1587,14 +1592,14 @@ transition: all 0.3s ease-in;
      background-color: #FBB03B;
 }
  .copyright p {
-     color: #fff;
+     color: #1D0000;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
    
 }
  .copyright a {
-     color: #fff;
+     color: #1D0000;
 }
  .copyright a:hover {
      color: #ff7e1d ;

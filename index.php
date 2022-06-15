@@ -1,5 +1,9 @@
 
+<?php
+include 'template/conexion.php';
+session_start();
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,21 +16,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+<!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+<script src="javascript/sweetalert2.min.js"></script>
     <title>iniciar sesion</title>
 </head>
 <body>
-   
+
     <div class="main-conter">
       <form class="conter" action="" method="POST">
-       
+
         <img class="avatar" src="img/logo1.png" width="180px">
         <h1 id="titulo">Iniciar Sesión</h1>
-      
+
        <div class="box-usuario">
           <i class="fas fa-user" style="color:rgb(89, 85, 85)"></i>
             <input type="text"  placeholder="Ingrese su usuario" name="txtusuario" id="txtusuario" class="input">
-       </div> 
+       </div>
 
         <div  class="box-contraseña">
           <i class="fas fa-lock" style="color:rgb(89, 85, 85)"></i>
@@ -38,17 +44,16 @@
 
             <div class="box-boton">
             <input type="submit" name="boton" value="Ingresar" class="submi" >
-         </div>   
-       </form>     
+         </div>
+       </form>
   </div>
 </body>
 </html>
 <script src="https://kit.fontawesome.com/8fa2f1f6ef.js" crossorigin="anonymous"></script>
 <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 <?php
-include 'template/conexion.php';
-session_start();
 if(isset($_POST['boton'])){
     if(empty($_POST['txtusuario']) || empty($_POST['txtcontra'])){
         ?>

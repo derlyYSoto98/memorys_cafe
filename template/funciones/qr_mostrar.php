@@ -24,11 +24,12 @@ if(isset($_POST) && !empty($_POST)) {
         }
         
     QRcode::png("https://www.aecostudiocolombia.com.co/memorys/template/funciones/consulta_qr2.php?idproceso=$dato", $codesDir.$codeFile, 'H', 7); 
+   
     echo '<img class="img-thumbnail" src="'.$codesDir.$codeFile.'" />';
-
-
-    echo '<a class="opcionesqr btn btn-warning" href="descarga.php?path='.$codesDir.$codeFile.'">Guardar Imagen</a>';
-    echo '<a class="opcionesqr btn btn-warning" href="consulta_qr.php">Cerrar</a>';
+     echo '<div class="boxprueba">';
+    echo '<a class="opcionesqr box1 btn btn-warning" href="descarga.php?path='.$codesDir.$codeFile.'">Guardar Imagen</a>';
+    echo '<a class="opcionesqr box2 btn btn-warning" href="consulta_qr.php">Cerrar</a>';
+    echo '</div>';
 
    //echo '<img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http%3A%2F%2Fwww.youtube.com/watch?v=USDX0X-d588%2F&choe=UTF-8" title="Link to Google.com" />';
 } else {

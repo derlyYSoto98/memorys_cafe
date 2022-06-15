@@ -1,3 +1,5 @@
+
+
 /* alert('hola'); */
 
 Swal.fire({
@@ -10,4 +12,3 @@ Swal.fire({
   imageAlt: 'Custom image',
   background:'#ffffff',
 })
-

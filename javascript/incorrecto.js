@@ -10,4 +10,3 @@ Swal.fire({
   imageAlt: 'Custom image',
   background:'#ffffff',
 })
-
